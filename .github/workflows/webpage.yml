@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo "$((secrets.SSHKEY))" > chave.pem
+          echo "$((secrets.GESTOR_EDUARDOG))" > chave.pem
           sudo chmod 600 chave.pem
           ssh -o stricthostchecking = no -i chave.pem gestor@158.158.99.171 "sudo apt update; sudo apt install apache2; sudo chmod -R 777 /var/www/html"
           scp -o stricthostchecking = no -i chave.pem ./index.html gestor@158.158.99.171:/var/www/html/index.html
