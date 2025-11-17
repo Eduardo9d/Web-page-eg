@@ -35,6 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo "${{secrets.SSHKEY}}" > chave.pem
+          ssh-keygen -p -m PEM -f chave.pem
           sudo chmod 600 chave.pem
           ssh -o StrictHostKeyChecking=no -i chave.pem gestor@158.158.99.171 
           sudo apt update; sudo apt install apache2; sudo chmod -R 777 /var/www/html
