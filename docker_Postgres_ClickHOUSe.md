@@ -145,11 +145,5 @@ Exemplo de saída:
 └────┴────────┴────────────────────┴─────┘
 ```
 
----
 
 
----
-
-# ⭐ Quer que eu transforme isto num PDF, num README mais formal, ou num guia passo‑a‑passo com imagens?
-
-Posso ajudar a deixá‑lo ainda mais profissional para o teu portefólio ou para CESAE.
